@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const foods = [
         {
             name: "Pepperoni Pizza (click on the image to see in detail)",
-            img: "pizza.jpeg",
+            img: "image/pizza.jpeg",
             ingredients: ["1 can (8 oz each) Hunt's® Tomato Sauce-No Salt Added", 
                         "1/4 cup grated Parmesan cheese", 
                         "1/4 teaspoon dried oregano", 
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             
             name: "Sphaghetti (click on the image to see in detail)",
-            img: "sphaghetti.jpeg",
+            img: "image/sphaghetti.jpeg",
             ingredients: [
                 "1 medium yellow onion",
                 "3 cloves garlic",
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             name: "Hamburger (click on the image to see in detail)",
-            img: "hamburger.jpeg", // Placeholder for the image path
+            img: "image/hamburger.jpeg", // Placeholder for the image path
             ingredients: [
                 "1 large egg",
                 "½ teaspoon salt",
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             name: "Homemade Fried Rice (click on the image to see in detail)",
-            img: "fried_rice.jpeg", // Ensure you have an appropriate image or placeholder
+            img: "image/fried_rice.jpeg", // Ensure you have an appropriate image or placeholder
             ingredients: [
                 "Day-old cooked rice",
                 "Eggs",
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             name: "Beef Taco (click on the image to see in detail)",
-            img: "beef_taco.jpeg", // Placeholder for the image path; replace with actual image path if available
+            img: "image/beef_taco.jpeg", // Placeholder for the image path; replace with actual image path if available
             ingredients: [
                 "1 pound lean (at least 80%) ground beef",
                 "1 cup thick & chunky salsa",
