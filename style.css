@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #2c3e50; /* Dark blue-grey for text */
+    margin: 0;
+    padding: 0;
+    background: #ecf0f1; /* Light grayish-blue background */
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #3498db; /* Vibrant blue */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #2980b9; /* Darker blue on hover */
+    cursor: pointer;
+}
+
+/* Header Styles */
+header {
+    background-color: #3498db; /* Same as nav background */
+    color: white;
+    padding: 40px 20px;
+    font-size: 24px;
+}
+
+/* Food Item Styles */
+.food-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.food-item img {
+    width: 250px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.food-item p {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+/* Ingredients List Style */
+#ingredientsList {
+    display: none;
+    background-color: #ffffff;
+    padding: 20px;
+    border-top: 3px solid #3498db; /* Vibrant blue border */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50; /* Dark blue-grey */
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .food-item img {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+
